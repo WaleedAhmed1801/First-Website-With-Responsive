@@ -41,22 +41,25 @@ header nav .btn1{
 
 .mainsection{
     width: 100vw;
-    height: 49vh;
+    height:50vh;
     background-image: url(./medical-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
+.abc{
+    padding: 50px;
+}
 .mainsection h1{
     font-size: 3.1rem;
-    color: rgb(220, 197, 197);
+    color: rgb(151, 146, 146);
     letter-spacing: 2px;
     
 }
 .mainsection p{
     font-size: 1.1rem;
     margin: 12px;
-    color: rgb(208, 169, 169);
+    color: rgb(151, 146, 146);
     letter-spacing: 2px;
 }
 .mainsection .btn2{
