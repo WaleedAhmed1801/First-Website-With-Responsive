@@ -47,9 +47,6 @@ header nav .btn1{
     background-size: cover;
     text-align: center;
 }
-.abc{
-    padding: 50px;
-}
 .mainsection h1{
     font-size: 3.1rem;
     color: rgb(151, 146, 146);
@@ -113,7 +110,7 @@ header nav .btn1{
 
                        /* Fisrt media query */
 
-@media  (max-width:843px){
+ @media  (max-width:843px){ 
     header nav .nav-items a{
         font-size: 1.0rem;
         padding: 4px;
@@ -131,9 +128,10 @@ header nav .btn1{
         width: 100vw;
         height: 40vh;
     }
+}
     
                     /* second media query */
-}
+
 @media (max-width:780px) {
     header{
         height: 55px;
@@ -449,4 +447,4 @@ header nav .btn1{
         height: 8px;
         font-size: 0.1rem;
     }
- }                    
+ }                     */
