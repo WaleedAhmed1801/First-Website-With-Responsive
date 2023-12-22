@@ -48,24 +48,27 @@ header nav .btn1{
     text-align: center;
 }
 .mainsection h1{
-    font-size: 3.1rem;
+    font-size: 3.3rem;
     color: rgb(151, 146, 146);
     letter-spacing: 2px;
+    padding: 20px;
     
 }
 .mainsection p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin: 12px;
     color: rgb(151, 146, 146);
     letter-spacing: 2px;
+    padding: 10px;
 }
 .mainsection .btn2{
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     background-color: white;
     color: black;
     border: 2px solid white;
-    margin: 6px;
+    margin: 8px;
+    padding: 10px;
 }
 
 
@@ -108,9 +111,22 @@ header nav .btn1{
          /* <!--Second Section Completed   -->*/
 
 
-                       /* Fisrt media query */
-
- @media  (max-width:843px){ 
+@media (max-width:984px) {
+    .mainsection h1{
+    font-size: 2.9rem;
+    padding: 2px;
+    }
+    .mainsection p{
+    font-size: 1.1rem;
+    padding: 2px;
+    }
+    .mainsection .btn2{
+    width: 100px;
+    height: 40px;
+    margin: 4px;
+    padding: 2px;
+    font-size: 0.7rem;
+    }
     header nav .nav-items a{
         font-size: 1.0rem;
         padding: 4px;
@@ -124,38 +140,8 @@ header nav .btn1{
         height: 35px;
         font-size: 0.9rem;
     }
-    .mainsection{
-        width: 100vw;
-        height: 40vh;
-    }
 }
-    
-                    /* second media query */
-
-@media (max-width:780px) {
-    header{
-        height: 55px;
-}
-    .mainsection h1{
-        font-size: 2.7rem;
-    }
-    .mainsection p{
-        font-size: 0.9rem;
-    }
-    .mainsection .btn2{
-        width: 80px;
-        height: 30px;
-        margin: 2px;
-        font-size: 0.7rem;
-    }
-    .mainsection{
-        width: 100vw;
-        height: 35vh;
-    }
-}
-                    /* third media query */
-
-@media (max-width:717px) {
+@media (max-width:650px) {
     header{
         height: 50px;
     }
@@ -196,168 +182,105 @@ header nav .btn1{
     }
     
 }
-                 /* fourth media query */
-    
- @media (max-width:525px) {
-    header{
-        height: 45px;
-    }
-    header nav .nav-items a{
-        font-size: 0.6rem;
-        padding: 2px;
-    }
-    nav .image1 img{
-        width: 50px;
-        height: 30px;
-    }
-    header nav .btn1{
-        width: 100px;
-        height: 20px;
-        font-size: 0.5rem;
-    }
-    .mainsection h1{
-        font-size: 2.3rem;
-    }
-    .mainsection p{
-        font-size: 0.7rem;
-    }
-    .mainsection .btn2{
-        width: 70px;
-        height: 25px;
-        margin: 2px;
-        font-size: 0.5rem;
-    }
+ @media  (max-width:525px){ 
     .mainsection{
         width: 100vw;
         height: 30vh;
     }
-    .box1{
-        width: 180px;
-        height: 150px;
-        background-color: rgb(249, 244, 244);
-    }
-    .pcb{
-        margin: 15px;
-    }
-    
-    .box1 img{
-        width: 40px;
-        height: 45px;
-    }
-    .subsection p{
-        font-size: 0.6rem;
-    }
-    .subsection h3{
-        font-size: 0.8rem;
-    }
-}
-
-                 /* fifth media query */
-
- @media (max-width:453px) {
-    header{
-        height: 40px;
-    }
     .mainsection h1{
-        font-size: 1.8rem;
-    }
-    .mainsection p{
+        font-size: 1.3rem;
+        }
+        .mainsection p{
         font-size: 0.6rem;
-    }
-    .mainsection .btn2{
-        width: 50px;
-        height: 20px;
+        }
+        .mainsection .btn2{
+        width: 60px;
+        height: 30px;
         margin: 2px;
+        font-size: 0.5rem;
+        }
+        header{
+            height: 30px;
+        }
+        header nav .nav-items a{
+            font-size: 0.6rem;
+            padding: 2px;
+        }
+        nav .image1 img{
+            width: 45px;
+            height: 25px;
+        }
+        header nav .btn1{
+            width: 90px;
+            height: 20px;
+            font-size: 0.4rem;
+        }
+}
+@media (max-width:370px) {
+    header{
+        height: 25px;
+    }
+    header nav .nav-items a{
         font-size: 0.4rem;
+        padding: 2px;
+    }
+    nav .image1 img{
+        width: 35px;
+        height: 20px;
+    }
+    header nav .btn1{
+        width: 70px;
+        height: 15px;
+        font-size: 0.3rem;
     }
     .mainsection{
         width: 100vw;
         height: 25vh;
     }
- }                
-                  /* sixth media query */
-
- @media (max-width:385px) {
-    .pcb{
-        margin: 8px;
-    }
-    .box1 img{
-        width: 25px;
-        height: 30px;
-    }
-    .subsection p{
-        font-size: 0.4rem;
-    }
-    .subsection h3{
-        font-size: 0.6rem;
-    }
-    .pcb h2{
-        font-size: 0.7rem;
-    }
-    .box1{
-        width: 140px;
-        height: 100px;
-    }
-    header nav .nav-items a{
-        font-size: 0.5rem;
-        padding: 2px;
-    }
-    nav .image1 img{
-        width: 40px;
-        height: 30px;
-    }
-    header nav .btn1{
-        width: 70px;
-        height: 15px;
-        font-size: 0.3rem;
-    }
-    .mainsection{
-        width: 100vw;
-        height: 20vh;
-    }
-    .mainsection .btn2{
-        width: 50px;
-        height: 15px;
-        margin: 2px;
-        font-size: 0.3rem;
-    }
-    .mainsection h1{
-        font-size: 1.2rem;
-    }
-    .mainsection p{
-        font-size: 0.4rem;
-    }
- }             
- 
-                      /* seventh media query */
-
- @media (max-width:312px) {
-    header{
-        height: 30px;
-    }
-    header nav .nav-items a{
-        font-size: 0.3rem;
-        padding: 2px;
-    }
     .mainsection h1{
         font-size: 0.9rem;
+        }
+        .mainsection p{
+        font-size: 0.5rem;
+        }
+        .mainsection .btn2{
+        width: 50px;
+        height: 25px;
+        margin: 2px;
+        font-size: 0.4rem;
+        }
+        .pcb{
+            margin: 10px;
+        }
+        .box1{
+            width: 130px;
+            height: 120px;
+        }
+        
+        .box1 img{
+            width: 25px;
+            height: 30px;
+        }
+        .subsection p{
+            font-size: 0.4rem;
+        }
+        .subsection h3{
+            font-size: 0.5rem;
+        }
+        .pcb h2{
+            font-size: 0.8rem;
+        }
+}
+@media (max-width:277px) {
+    header{
+        height: 20px;
     }
-    .mainsection p{
+    header nav .nav-items a{
         font-size: 0.3rem;
     }
-    .mainsection{
-        width: 100vw;
-        height: 16vh;
-    }
-    .mainsection .btn2{
-        width: 40px;
-        height: 10px;
-        margin: 2px;
-        font-size: 0.2rem;
-    }
     nav .image1 img{
-        width: 30px;
-        height: 20px;
+        width: 25px;
+        height: 15px;
     }
     header nav .btn1{
         width: 50px;
@@ -365,86 +288,39 @@ header nav .btn1{
         font-size: 0.2rem;
     }
     .pcb{
-        margin: 4px;
-    }
-    .box1 img{
-        width: 15px;
-        height: 20px;
-    }
-    .subsection p{
-        font-size: 0.3rem;
-    }
-    .subsection h3{
-        font-size: 0.5rem;
-    }
-    .pcb h2{
-        font-size: 0.5rem;
+        margin: 5px;
     }
     .box1{
         width: 100px;
-        height: 70px;
-    }
- }              
- 
-                     /* eight media query */
-
- @media (max-width:243px) {
-    .pcb{
-        margin: 6px;
-    }
-    .box1 img{
-        width: 10px;
-        height: 10px;
-    }
-    .subsection p{
-        font-size: 0.2rem;
-    }
-    .subsection h3{
-        font-size: 0.3rem;
-    }
-    .pcb h2{
-        font-size: 0.4rem;
-    }
-    .box1{
-        width: 80px;
-        height: 60px;
-    }
-}
-
-                     /* ninth media Query */
-
- @media (max-width:220px) {
-    header{
-        height: 20px;
-    }
-    header nav .nav-items a{
-        font-size: 0.2rem;
-        padding: 2px;
-    }
-    .mainsection h1{
-        font-size: 0.6rem;
-    }
-    .mainsection p{
-        font-size: 0.2rem;
+        height: 100px;
     }
     
-    .mainsection .btn2{
-        width: 15px;
-        height: 4px;
-        margin: 2px;
-        font-size: 0.1rem;
+    .box1 img{
+        width: 20px;
+        height: 25px;
     }
-    .mainsection{
+    .subsection p{
+        font-size: 0.3rem;
+    }
+    .subsection h3{
+        font-size: 0.4rem;
+    }
+    .pcb h2{
+        font-size: 0.6rem;
+    }.mainsection{
         width: 100vw;
-        height: 15vh;
+        height: 25vh;
     }
-    nav .image1 img{
-        width: 15px;
+    .mainsection h1{
+        font-size: 0.7rem;
+        }
+        .mainsection p{
+        font-size: 0.4rem;
+        }
+        .mainsection .btn2{
+        width: 40px;
         height: 15px;
-    }
-    header nav .btn1{
-        width: 30px;
-        height: 8px;
-        font-size: 0.1rem;
-    }
- }                     */
+        margin: 2px;
+        font-size: 0.3rem;
+        }
+}
